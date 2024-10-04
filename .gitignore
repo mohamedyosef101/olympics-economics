@@ -1,0 +1,9 @@
+.vscode
+notebooks
+**/.DS_Store
+**/__pycache__
+**/.pytest_cache
+.env
+pytest.ini
+checklists
+data/unused
