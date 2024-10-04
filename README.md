@@ -22,7 +22,8 @@ The goal of this project is to (1) get a visually and deep analysis of what happ
 
 
 ## Challenges Faced
-- **Merging Datasets**: due to the country code...
+- **Merging Datasets**: the `country_code` in the Olympics data doesn't follow the standard Alpha-3 code --I found it a mix between Alpha-2 and abbreviation of the English names-- so I changed all the names to match Alpha-3 code. 
+- **No available GDP data**: the world bank data that I have right now doesn't include any information about Taiwan or North Korea. Also, the data is only  (I don't know if I should look for another data)
 
 
 ## Conclusion
