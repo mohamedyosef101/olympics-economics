@@ -1,4 +1,4 @@
-Rank,Country,Country Code,Gold,Silver,Bronze,Total
+rank,country,country_code,gold,silver,bronze,total
 1,United States,USA,40,44,42,126
 2,China,CHN,40,27,24,91
 3,Japan,JPN,20,12,13,45
