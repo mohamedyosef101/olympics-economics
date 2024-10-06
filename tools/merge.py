@@ -12,7 +12,7 @@ df = pd.merge(pd.merge(medals, gdp, on='country_code', how='left'), population, 
 def billion_pop(x):
     return round((x / (10^6)), 1)
 
-df = df.drop(['country_name', 'gdp2020', 'gdp2021', 'gdp2022'], axis=1)
+df = df.drop(['rank', 'country_name', 'gdp2020', 'gdp2021', 'gdp2022'], axis=1)
 df = df.rename(columns={'gdp2023': 'gdp'})
 df['population'] = df.population.apply(billion_pop)
 
