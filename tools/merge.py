@@ -32,4 +32,4 @@ df = df.reindex(columns, axis=1)
 df = df.drop(85, axis=0)
 
 # save the results
-df.to_csv('olympics-economics.csv')
+df.to_csv('olympics-economics.csv', index=False)
