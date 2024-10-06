@@ -14,7 +14,7 @@ The goal of this project is to (1) get a visually and deep analysis of what happ
 ## Methodology
 
 - **Data Collection & cleaning** 
-    * After obtaining the medal data [1](#data:medals), the GDP data [2](#data:gdp), country codes [3](#data:codes), and population [4](#data:population), I merged these datasets the country code as the main key.
+    * After obtaining the medal data [[1](#data:medals)], the GDP data [[2](#data:gdp)], country codes [[3](#data:codes)], and population [[4](#data:population)], I merged these datasets the country code as the main key.
     * To ensure consistency, minor discrepancies in country codes between the datasets were manually corrected based on the Alpha-3 format (e.g., "US" vs. "USA").
     * After merging, the combined dataset was checked for missing or erroneous values, ensuring a clean and ready-to-use dataset for analysis (note: I dropped the Refugee Olympic Team data, since it is out of our focus in this analysis).
     * The final dataset is available on [Kaggle](https://www.kaggle.com/datasets/mohamedyosef101/2024-olympics-medals-and-economic-status) now.
@@ -36,7 +36,7 @@ The goal of this project is to (1) get a visually and deep analysis of what happ
 
 
 ## Acknowledgement
-**Data Sources**
+**Data Sources** <br>
 [<span id="data:gdp">1</span>] [GDP per capita (current US$)](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD), World Bank. <br>
 [<span id="data:medals">2</span>] Berkay Alan. [Paris 2024 Olympics Medals](https://www.kaggle.com/datasets/berkayalan/paris-2024-olympics-medals), Kaggle. <br>
 [<span id="data:codes">3</span>] [Country Codes Alpha-2 & Alpha-3](https://www.iban.com/country-codes), IBAN. <br>
