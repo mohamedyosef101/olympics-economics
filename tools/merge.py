@@ -23,7 +23,7 @@ df.at[31, 'gdp_year'] = int(2022)
 
 # changes to apply
 def billion_pop(x):
-    return round((x / (10^6)), 1)
+    return round((x / (10**6)), 1)
 
 def round2(x):
     return round(x, 2)
